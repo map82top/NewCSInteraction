@@ -1,0 +1,12 @@
+C:\Users\map82_top\source\repos\CSInteraction\CSInteraction\bin\Debug\CSInteraction.dll
+C:\Users\map82_top\source\repos\CSInteraction\CSInteraction\bin\Debug\CSInteraction.pdb
+C:\Users\map82_top\source\repos\CSInteraction\CSInteraction\obj\Debug\CSInteraction.csprojAssemblyReference.cache
+C:\Users\map82_top\source\repos\CSInteraction\CSInteraction\obj\Debug\CSInteraction.csproj.CoreCompileInputs.cache
+C:\Users\map82_top\source\repos\CSInteraction\CSInteraction\obj\Debug\CSInteraction.dll
+C:\Users\map82_top\source\repos\CSInteraction\CSInteraction\obj\Debug\CSInteraction.pdb
+C:\Users\map82_top\Documents\GitHub\NewCSInteraction\CSInteraction\CSInteraction\bin\Debug\CSInteraction.dll
+C:\Users\map82_top\Documents\GitHub\NewCSInteraction\CSInteraction\CSInteraction\bin\Debug\CSInteraction.pdb
+C:\Users\map82_top\Documents\GitHub\NewCSInteraction\CSInteraction\CSInteraction\obj\Debug\CSInteraction.csprojAssemblyReference.cache
+C:\Users\map82_top\Documents\GitHub\NewCSInteraction\CSInteraction\CSInteraction\obj\Debug\CSInteraction.csproj.CoreCompileInputs.cache
+C:\Users\map82_top\Documents\GitHub\NewCSInteraction\CSInteraction\CSInteraction\obj\Debug\CSInteraction.dll
+C:\Users\map82_top\Documents\GitHub\NewCSInteraction\CSInteraction\CSInteraction\obj\Debug\CSInteraction.pdb
