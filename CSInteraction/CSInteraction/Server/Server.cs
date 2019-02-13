@@ -52,10 +52,14 @@ namespace CSInteraction.Server
                 {
                     if (ServerPoint.Pending())
                     {
-                        //добавляем нового клиента
-                        ServerClient Client = new ServerClient(ServerPoint.AcceptTcpClient(), BaseControler);
-                        Client.EventEndSession += HandlerEndSessionClient;
-                        ConnectedClients.Add(Client);
+                        if (BaseControler != null)
+                        {
+                            //добавляем нового клиента
+                            ServerClient Client = new ServerClient(ServerPoint.AcceptTcpClient(), BaseControler);
+                            Client.EventEndSession += HandlerEndSessionClient;
+                            ConnectedClients.Add(Client);
+                        }
+                        else throw new Exception("Не указана сслыка на базоый обработчик сообщений от клиента");
                     }
                     else Thread.Sleep(500);
                 }

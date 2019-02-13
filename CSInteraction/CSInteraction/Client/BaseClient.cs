@@ -8,6 +8,7 @@ using System.IO;
 using System.Threading;
 using CSInteraction.Common;
 using CSInteraction.ProgramMessage;
+using System.Threading.Tasks;
 
 
 namespace CSInteraction.Client
@@ -181,7 +182,7 @@ namespace CSInteraction.Client
                 ObjectMsg = (IMessage)formatter.Deserialize(MemStream);
             }
             //генерируем событие
-            EventNewMessage(ObjectMsg);
+            Task.Run(()=>EventNewMessage(ObjectMsg));
         }
     }
 

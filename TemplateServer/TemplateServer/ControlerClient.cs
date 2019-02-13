@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using CSInteraction.ProgramMessage;
 using CSInteraction.Server;
+using System.Threading;
 
 namespace TemplateServer
 {
@@ -32,6 +33,7 @@ namespace TemplateServer
             switch (msg.TypeMessage)
             {
                 case TypesProgramMessage.TextMessage:
+                    Thread.Sleep(5000);
                     TextMessage TextMsg = new TextMessage((msg as TextMessage).Text+" Обработано сервером");
                     Client.SendMessage(TextMsg);
                     break;

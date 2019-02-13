@@ -14,3 +14,4 @@ C:\Users\map82_top\Documents\GitHub\NewCSInteraction\TemplateClient\TemplateClie
 C:\Users\map82_top\Documents\GitHub\NewCSInteraction\TemplateClient\TemplateClient\bin\Debug\CSInteraction.dll
 C:\Users\map82_top\Documents\GitHub\NewCSInteraction\TemplateClient\TemplateClient\bin\Debug\CSInteraction.pdb
 C:\Users\map82_top\Documents\GitHub\NewCSInteraction\TemplateClient\TemplateClient\obj\Debug\TemplateClient.csproj.CopyComplete
+C:\Users\map82_top\Documents\GitHub\NewCSInteraction\TemplateClient\TemplateClient\bin\Debug\TemplateClient.exe.config

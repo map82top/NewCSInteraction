@@ -18,15 +18,17 @@ namespace TemplateClient
             if (Client.ConnectToServer())
             {
                 Console.WriteLine("Соединение с сервером прошло успешно");
-                for (;;)
+                for (int i = 0;i < 5 ;i++)
                 {
-                    Console.WriteLine("Введите сообщение: ");
-                    IMessage msg = new TextMessage(Console.ReadLine());
-                    if (Client.SendMessage(msg))
-                    {
-                        Console.WriteLine("Сообщение отправлено");
-                    }
-                    else { Console.WriteLine("Неудалось отправить сообщение"); }
+                    /* Console.WriteLine("Введите сообщение: ");
+                     IMessage msg = new TextMessage(Console.ReadLine());
+                     if (Client.SendMessage(msg))
+                     {
+                         Console.WriteLine("Сообщение отправлено");
+                     }
+                     else { Console.WriteLine("Неудалось отправить сообщение"); }
+                     */
+                    Client.SendMessage(new TextMessage("Тестовое сообщение"));
                 }
             }
             else

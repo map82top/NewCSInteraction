@@ -6,8 +6,9 @@ using CSInteraction.Server;
 
 namespace TemplateServer
 {
-    class Program
+    static class Program
     {
+        public static Server ObjectServer;
         static void Main(string[] args)
         {
             Server ObjectServer = new Server("127.0.0.1",1500, new ControlerClient());
@@ -16,6 +17,9 @@ namespace TemplateServer
                 Console.WriteLine("Сервер запущен");
             }
             else Console.WriteLine("Ошибка запуска сервера");
+            for (; ; )
+            {
+            }
         }
     }
 }
